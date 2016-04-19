@@ -18,8 +18,6 @@ public class HdmiListener extends WakefulBroadcastReceiver {
             } else {
                 MainApp.onHDMIDisconnected(context, intent);
             }
-        } else if (action.equals(ACTION_HDMISTATUS_CHANGED)) {
-            onHdmiPlugChanged(context, intent);
         }
     }
 }
