@@ -51,7 +51,7 @@ public class HdmiWatcher extends Service {
 
                         Log.d(TAG, String.format("HDMI STATE CHANGED: %s", state));
 
-                        Intent i = new Intent(HdmiListener.HDMIINTENT);
+                        Intent i = new Intent("android.intent.action.HDMI_PLUGGED");
                         i.putExtra("state", last_state);
                         getBaseContext().sendBroadcast(i);
                     }
