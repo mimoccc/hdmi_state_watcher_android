@@ -1,5 +1,8 @@
 # hdmi_state_watcher_android
 
+note:
+there is no onDestroy & release FileObserver as it is primary developed for launcher app
+
 usage : 
 
 receiver:
