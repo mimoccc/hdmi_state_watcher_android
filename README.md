@@ -26,7 +26,7 @@ public class HdmiListener extends WakefulBroadcastReceiver {
 
 manifest:
 
-```xml
+```
 <service
 	android:name=".service.hdmi.HdmiWatcher"
 	android:process=":remote"
